@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+header div.logo img
+{
+    width: 100px;
+    height: auto;
+   
+}
+
+header div.logo h1
+{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+header div.menu nav
+{
+    background: grey;
+    width: 100%;
+}
+
+header div.menu
+{
+    position: absolute;
+    width: 100%;
+}
+
+header div.menu li 
+{
+    display: inline-block;
+    
+}
+

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Sedgwick+Ave');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background: url("../imgft/bolacort.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+header div.cabeceira
+{
+    width: 100%;
+    height: 230px;
+    background: url("../imgft/soccer_1_cut.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+header h1
+
+{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 4em;
+    margin: 0;
+    color: #0EFF00;
+    margin-top: 30px;
+    text-shadow: 5px 5px 10px #262626;
+}
+
+div.logo figure img
+{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 190px;
+    right: 50px;
+}
+
+
+div.menu
+{
+    width: 150px;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+div.menu ul li
+{
+    list-style: none;
+    margin-bottom: 25px;
+}
+div.tabla
+{
+    width: 650px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+img.crio
+{
+    display: none;
+}
+
+h3.titulo
+{
+    margin: 0;
+    background-image: linear-gradient(  #048F37, #07F25D );
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+div.Schedule
+{
+    margin: 0;
+    box-shadow: -1px 0px 0px #00662A;
+}
+
+div.ScheduleC
+{
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+    box-shadow: -1px 0px 0px #00662A;
+}
+
+div.Schedule > p
+{
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+div.Schedule > h3
+{
+    margin-left: 5px;
+}

@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Nothing+You+Could+Do|Roboto:300,400');
+
+body
+{
+     background: url("../imgft/bolacort.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+/* Header Topo */
+div.topo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+header div.topo h1
+{
+    width: 45%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    line-height: 60px;
+    font-size: 2em;
+    font-family: 'Fugaz One', cursive;
+    background: -webkit-linear-gradient(#028A08, #003204);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+div.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+header div.topo div.menu
+{
+    position: relative;
+    bottom: -20px;
+}
+
+header div.topo div.menu a
+{
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(  #048F37, #07F25D );
+    text-decoration: none;
+    font-family: 'Nothing You Could Do', cursive;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px #262626;
+    
+}
+
+header div.topo div.menu a:hover
+{
+    background: #FF6019;
+    transition: .5s;
+}
+
+/*Cabecera */
+header div.cabecera
+{
+    background: url(../imgft/cabeceira2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+header div.cabecera h3
+{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 40px;
+     background-image: linear-gradient(  #048F37, #07F25D );
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bolder;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px #262626;
+    
+}
+
+/*Sectiont*/
+
+section.main
+{
+    min-height: 47vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    
+}
+
+section.main aside
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: linear-gradient( to right, #048F37, #fff);
+}
+
+section.main aside img
+{
+    width: 150px;
+    height: auto;
+    align-self: center;
+    
+}
+
+figure
+{
+    align-self: center;
+}
+
+section.main aside ul.social
+{
+   position: relative;
+    top: 150px;
+    align-self: center;
+}
+section.main article.info
+{
+    margin-top: 20px;
+    width: 70%;
+    height: 100%;
+}
+
+section.main article.info div.horarios
+{
+    box-shadow: -1px 0px 0px #00662A;
+    margin-bottom: 15px;
+}
+
+section.main article.info div.horarios
+h3
+{
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 25px;
+   margin-bottom: 0; 
+   margin-left: 5px;
+}
+
+section.main article.info div.horarios
+p
+{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+section.main article.info div.horarioscont 
+{
+    
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    box-shadow: -1px 0px 0px #00662A;
+    
+}
+
+.horariosp
+{
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+
+section.main article.info div.horarioscont > p
+{
+   font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+}
+
+/*footer*/
+
+
+footer > p
+{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 2vh;
+    background: #00662A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+/*Rules And Policies:*/
+
+section.main article.info div.rules
+{
+    box-shadow: -1px 0px 0px #00662A;
+    margin-bottom: 15px;
+}
+
+section.main article.info div.rules
+p
+{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+section.main article.info div.rules
+p.titlerules
+{
+    text-align: center;
+}
+
+
+
+section.main article.info div.rules
+h3
+{
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 25px;
+   margin-bottom: 0; 
+   margin-left: 5px;
+}
+
+section.main article.info div.rules
+div.tabla ul.social
+{
+    position: relative;
+    top: 150px;
+}
+
+section.main article.info div.rules
+div.tabla ol.letrasmin
+{
+ list-style-type: lower-latin;
+}
+
+section.main article.info div.rules
+div.tabla ol.quadrado
+{
+    list-style-type: square;
+}
+
+section.main article.info div.rules
+div.tabla ol.circtransp
+{
+    list-style-type: circle;
+}
+
+/*Info Games */
+
+section.main article.info div.Ginfo
+p
+{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+section.main article.info div.Ginfo
+h3
+{
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 25px;
+   margin-bottom: 0; 
+   margin-left: 5px;
+}
+
+section.main article.info div.Ginfo div.tabela table.table01
+{
+   font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.main article.info div.Ginfo div.tabela table.table01 td.valing
+{
+    vertical-align: top;
+}
+
+section.main article.info div.Ginfo div.tabela table.table02
+{
+   font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+section.main article.info div.Ginfo div.tabela table.table02 tr th
+{
+    text-align: left;
+}
+section.main article.info div.Ginfo div.tabela table.table02 tr td
+{
+    text-align: left;
+}
+
+
+p.pinfo
+{
+   font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px; 
+}
+
+span
+{
+    font-weight: lighter;
+    color: #2C8F43;
+}
+
+div.phonemail
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Formularios*/
+
+form.form1
+{
+    display: flex;
+    flex-wrap: wrap;    
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+form.form1 > div
+{
+    margin-top: 10px;
+}
+
+div.inputbox1 , div.inputbox2, div.inputbox4, div.inputbox5, .mediapan
+{
+    width: 49%;
+   
+    
+}
+div.inputbox3, div.fullpan{
+    width: 100%;
+   
+}
+
+form.form1 input[type="text"]
+{
+    width: 50%;
+}
+
+.fullpan
+{
+    width: 100%;
+}
+
+.formflex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formflexcol
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80px;
+}
+
+.check
+{
+    margin: 0;
+    padding: 0;
+}
+
+.mazero
+{
+    margin-bottom: 10px;
+    
+}
+
+.checkopt
+{
+    margin-bottom: 10px;
+}
+
+.info
+{
+    font-family: 'Roboto', sans-serif;    
+}
+
+.signature
+{
+   width: 60%; 
+    
+}
+
+input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #262626;
+    outline: none;
+}
+
+input[type="text"]:focus
+{
+    border: none;
+    border-bottom: 2px solid #048F37;
+}
+
+
+
+.signature input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #262626;
+}
+
+.signature input[type="text"]:focus
+{
+    border: none;
+    border-bottom: 2px solid #048F37;
+}
+
+.datacon
+{
+   width: 30%; 
+}
+
+input[type="submit"]
+{
+    border: none;
+    padding: 0 20px 0 20px;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background-image: linear-gradient(  #048F37, #07F25D );
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="date"]
+{
+    border: none;
+    background: transparent;
+}
+
+/*Show Data */
+
+.tabelaform 
+{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    width: 600px;
+    font-family: 'Roboto', sans-serif; 
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.minimo
+{
+   min-height: 27vh; 
+}
+
+.tabelaform th
+{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: linear-gradient(  #048F37, #07F25D );
+    color: #fff;
+    
+}
+
+.tabelaform td
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabelaform td:nth-child(odd)
+{
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+h1
+{
+    font-size: 1em;
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+/*MAPS*/
+
+.showmaps
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+     border-bottom: 1px solid green;
+}
+
+.maps h3
+{
+    border-bottom: 1px solid green;
+    font-style: 900;
+}
+
+.map01
+{
+    width: 45%;
+    height: 300px;
+}
+
+iframe
+{
+    width: 100%;
+    height: 300px;
+}
+
+.address
+{
+    text-align: right;
+    margin: 0;
+}
+
+.addressleft
+{
+    text-align: left;
+    
+}
+
+div.maps div.showmaps div.address > p
+{
+    margin: 0;
+}
+
+div.maps div.showmaps div.addressleft > p
+{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
